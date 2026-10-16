@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf5f0">
+  <meta name="description" content="A little corner of the world, made with love for Miss Anusa.">
+  <title>For Miss Anusa, with love</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="falling-hearts" id="falling-hearts" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to the good part</a>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#home" aria-label="Anusa, back to the beginning">A<span>.</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#story">Our story</a>
+        <a href="#letter">A letter</a>
+        <a href="#proposal">The question</a>
+      </nav>
+      <a class="header-note" href="#surprise">A little something <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> A little corner of the world, just for you</p>
+          <h1 id="hero-title">For my beautiful<br><em>Miss Anusa</em></h1>
+          <p class="hero-subtitle">In a world full of ordinary days, you are my favorite kind of magic.</p>
+          <a class="button button-primary" href="#story">Come take a look <span aria-hidden="true">↓</span></a>
+          <p class="hero-caption"><span class="tiny-sparkle" aria-hidden="true">✳</span> Made for you, and only you</p>
+        </div>
+        <div class="hero-art" aria-label="A romantic illustration of a rose in a sunlit vase">
+          <div class="art-sun"></div>
+          <div class="art-window"><span></span><span></span><span></span><span></span></div>
+          <div class="art-table"></div>
+          <div class="art-vase"><div class="vase-stem stem-one"></div><div class="vase-stem stem-two"></div><div class="vase-leaf leaf-one"></div><div class="vase-leaf leaf-two"></div><div class="vase-flower"><i></i><i></i><i></i><i></i><i></i><b></b></div></div>
+          <span class="floating-heart heart-one" aria-hidden="true">♥</span>
+          <span class="floating-heart heart-two" aria-hidden="true">♥</span>
+          <div class="art-note"><span>for you</span><span aria-hidden="true">♡</span></div>
+        </div>
+        <div class="hero-side-note" aria-hidden="true">A love note in the making <span></span> Est. always</div>
+      </section>
+
+      <section class="story section-pad" id="story" aria-labelledby="story-title">
+        <div class="section-heading">
+          <p class="eyebrow">The little things are the big things</p>
+          <h2 id="story-title">Our story, <em>so far</em></h2>
+          <p class="section-intro">A few little things that have made our story feel like ours.</p>
+        </div>
+        <div class="story-grid" id="story-grid"></div>
+      </section>
+
+      <section class="reasons section-pad" aria-labelledby="reasons-title">
+        <div class="reasons-mark" aria-hidden="true">&</div>
+        <p class="eyebrow">One of many, many reasons</p>
+        <h2 id="reasons-title">Things I love <em>about you</em></h2>
+        <p class="reason-text" id="reason-text" aria-live="polite">Tap below. I have a few things to say.</p>
+        <button class="button button-outline" id="reason-button" type="button">Tell me one <span aria-hidden="true">↗</span></button>
+        <span class="reasons-footnote">There will never be just one.</span>
+      </section>
+
+      <section class="letter-section section-pad" id="letter" aria-labelledby="letter-title">
+        <div class="letter-stamp" aria-hidden="true">WITH<br>LOVE</div>
+        <div class="letter-content">
+          <p class="eyebrow">Something I wanted you to know</p>
+          <h2 id="letter-title">A letter, <em>for you.</em></h2>
+          <button class="letter-toggle" id="letter-toggle" type="button" aria-expanded="false" aria-controls="letter-body">
+            <span class="letter-toggle-label">Open when you're ready</span><span class="letter-toggle-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="letter-body" id="letter-body" hidden>
+            <p>My dearest Anusa,</p>
+            <p>There are a thousand little ways you make life brighter, and somehow I keep finding new ones. The way you laugh, the way you care, the way simply being near you can make any place feel like home.</p>
+            <p>Thank you for being exactly who you are. I hope you always know that you are cherished, appreciated, and loved more than these words could ever hold.</p>
+            <p class="letter-signoff">Always yours, <span>with all my heart</span></p>
+          </div>
+        </div>
+        <div class="letter-flower" aria-hidden="true">❀</div>
+      </section>
+
+      <section class="proposal-section section-pad" id="proposal" aria-labelledby="proposal-title">
+        <p class="eyebrow">A question from my heart</p>
+        <h2 id="proposal-title">Will you say yes to our next chapter, Miss Anusa?</h2>
+        <p class="proposal-copy">Even before we have met in person, our conversations have become a special part of my days.</p>
+        <div class="proposal-actions" id="proposal-actions" aria-label="Choose your answer">
+          <button class="button button-primary proposal-button" id="proposal-yes" type="button">Yes, absolutely <span aria-hidden="true">♡</span></button>
+          <button class="button button-outline proposal-button" id="proposal-no" type="button">No</button>
+        </div>
+        <p class="proposal-response" id="proposal-response" aria-live="polite" hidden></p>
+        <p class="proposal-email-status" id="proposal-email-status" role="status" aria-live="polite" hidden></p>
+      </section>
+
+      <section class="surprise-section section-pad" id="surprise" aria-labelledby="surprise-title">
+        <div class="surprise-sparkle sparkle-a" aria-hidden="true">✳</div>
+        <div class="surprise-sparkle sparkle-b" aria-hidden="true">✧</div>
+        <p class="eyebrow">Just because</p>
+        <h2 id="surprise-title">One last little <em>thing.</em></h2>
+        <p class="surprise-copy">I made something for you. It is small, but it comes with my whole heart.</p>
+        <button class="button button-primary surprise-button" id="surprise-button" type="button">Open your surprise <span aria-hidden="true">♡</span></button>
+        <p class="surprise-message" id="surprise-message" aria-live="polite" hidden></p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-mark" href="#home" aria-label="Back to the beginning">A<span>.</span></a>
+      <p>Made with love, especially for <em>Miss Anusa.</em></p>
+      <a class="back-top" href="#home">Back to the beginning <span aria-hidden="true">↑</span></a>
+    </footer>
+  </div>
+
+</body>
+</html>
